@@ -23,17 +23,9 @@ const greeting = {
   logo_name: "Nathan Belmore",
   nickname: "ML Developer, Physicists",
   subTitle:
-<<<<<<< HEAD
     "A developer working at the intersection of math, physics, and machine learning to solve real world problems.",
   resumeLink: "",
   portfolio_repository: "",
-=======
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
->>>>>>> 253c3258472f622be0d677800213a0c9d9ac3ee8
 };
 
 const socialMediaLinks = [
