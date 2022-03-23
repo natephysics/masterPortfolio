@@ -164,7 +164,35 @@
       "contributions": [
         "code",
         "doc",
-        "ideas"
+        "ideas",
+        "question"
+      ]
+    },
+    {
+      "login": "KasRoudra",
+      "name": "KasRoudra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78908440?v=4",
+      "profile": "https://kasroudra.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AlbertEinsteinTG",
+      "name": "Albert Einstein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73480087?v=4",
+      "profile": "https://telegram.dog/AlbertEinstein_TG",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "SurajPratap10",
+      "name": "Suraj Pratap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92919173?v=4",
+      "profile": "https://github.com/SurajPratap10",
+      "contributions": [
+        "doc"
       ]
     }
   ],
