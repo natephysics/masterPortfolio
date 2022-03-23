@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A developer working at the intersection of math, physics, and machine learning to solve real world problems.",
   resumeLink: "",
-  portfolio_repository: "",
+  portfolio_repository: "https://github.com/natephysics/masterPortfolio",
 };
 
 const socialMediaLinks = [
@@ -306,15 +306,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "Stanford University",
+    //   color_code: "#8C151599",
+    // },
     {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
@@ -325,7 +325,7 @@ const certifications = {
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
+      title: "ML on GCP (In Progress)",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
       certificate_link: "#education",
@@ -400,17 +400,17 @@ const experience = {
     {
       title: "Research Projects",
       experiences: [
-        // {
-        //   title: "Google Explore ML Facilitator",
-        //   company: "Google",
-        //   company_url: "https://about.google/",
-        //   logo_path: "google_logo.png",
-        //   duration: "June 2019 - April 2020",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-        //   color: "#4285F4",
-        // },
+        {
+          title: "Google Explore ML Facilitator",
+          company: "Google",
+          company_url: "https://about.google/",
+          logo_path: "google_logo.png",
+          duration: "June 2019 - April 2020",
+          location: "Hyderabad, Telangana",
+          description:
+            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          color: "#4285F4",
+        },
         // {
         //   title: "Microsoft Student Partner",
         //   company: "Microsoft",
@@ -463,9 +463,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Coding Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "A portfolio of various machine learning and data science projects. Most projects are related to the physics research I've conducted in the fields of fusion plasma physics or antimatter research",
   avatar_image_path: "projects_image.svg",
 };
 
