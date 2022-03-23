@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import ReactHtmlParser from "react-html-parser";
 
 // const experience = {
 // 	title: "Experience",

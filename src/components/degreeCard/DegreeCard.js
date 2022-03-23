@@ -8,25 +8,24 @@ class DegreeCard extends Component {
     const theme = this.props.theme;
     return (
       <div className="degree-card">
-        <Flip left duration={2000}>
-          <div className="card-img">
-            <img
-              style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
-                transform: "scale(0.9)",
-              }}
-              src={require(`../../assests/images/${degree.logo_path}`)}
-              alt={degree.alt_name}
-            />
-          </div>
-        </Flip>
+        <Flip left duration={2000}></Flip>
         <Fade right duration={2000} distance="40px">
           <div className="card-body">
             <div
               className="body-header"
               style={{ backgroundColor: theme.headerColor }}
             >
+              <div className="card-img">
+                <img
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    transform: "scale(0.9)",
+                  }}
+                  src={require(`../../assests/images/${degree.logo_path}`)}
+                  alt={degree.alt_name}
+                />
+              </div>
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
                   {degree.title}
