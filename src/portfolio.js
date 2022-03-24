@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Nathan Belmore",
   logo_name: "Nathan Belmore",
-  nickname: "ML Developer, Physicists",
+  nickname: "ML Developer & Physicist",
   subTitle:
     "A developer working at the intersection of math, physics, and machine learning to solve real world problems.",
   resumeLink: "",
