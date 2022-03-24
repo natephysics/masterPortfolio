@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class DataScienceImg extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <svg
         id="prefix__Layer_1"
