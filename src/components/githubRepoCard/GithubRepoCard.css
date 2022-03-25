@@ -71,7 +71,7 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
 }
@@ -92,6 +92,17 @@
 .repo-languages {
   margin-left: auto;
   margin-right: 0px;
+}
+
+.flex-div {
+  display: flex;
+}
+.left-content {
+  width: 50%;
+}
+.right-content {
+  width: 50%;
+  padding: 7px;
 }
 
 @media (max-width: 768px) {

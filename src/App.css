@@ -29,6 +29,10 @@
   color: #868e96;
 }
 
+.greeting-nickname {
+  line-height: 1 !important;
+}
+
 /* Animations */
 @keyframes fade_down {
   0% {

@@ -31,6 +31,13 @@
 }
 
 .body-header {
+  /* background-image: url(https://timelinecovers.pro/facebook-cover/download/london-big-ben-facebook-cover.jpg); */
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.bg-color-effect {
+  /* background:rgb(140 204 233 / 60%); */
   max-width: inherit;
   display: flex;
   /* width: 100%; */
@@ -101,6 +108,26 @@
   padding: 0px;
   font-family: "Google Sans Regular";
   /* color: #000000; */
+}
+
+.inner-content {
+  height: 270px;
+
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+
+  overflow: hidden;
+}
+
+.inner-content .readmore-btn {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  margin: 20px;
+  font-weight: 500;
 }
 
 @media (max-width: 1380px) {

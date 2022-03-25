@@ -8,10 +8,11 @@ class ExperienceAccordion extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-accord">
-        <Accordion onChange={({ expanded }) => console.log(expanded)}>
+        <Accordion renderAll={true} accordion={true}>
           {this.props.sections.map((section) => {
             return (
               <Panel
+                expanded={true}
                 className="accord-panel"
                 title={section["title"]}
                 key={section["title"]}

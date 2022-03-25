@@ -274,6 +274,8 @@ const degrees = {
         "+ Others",
       ],
       website_link: "https://www.berkeley.edu/",
+      color_code: "#8C151599",
+      header_img: "Berkeley_banner.jpg",
     },
     {
       title: "University of California: Berkeley",
@@ -300,6 +302,8 @@ const degrees = {
         "+ Others",
       ],
       website_link: "https://www.berkeley.edu/",
+      color_code: "#0C9D5899",
+      header_img: "Berkeley_banner.jpg",
     },
   ],
 };
@@ -318,6 +322,8 @@ const certifications = {
     {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
+      detail:
+        "loream loream loream loram loream loream loream loram loream loream loream loram loream loream loream loram loream loream loream loram",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/U2EPL96DR6LS",
@@ -345,6 +351,7 @@ const experience = {
   sections: [
     {
       title: "Work",
+      default: "false",
       experiences: [
         {
           title: "Data Scientist",
@@ -372,6 +379,7 @@ const experience = {
     },
     {
       title: "Internships",
+      default: "false",
       experiences: [
         {
           title: "Physics Research Intern",
@@ -399,6 +407,7 @@ const experience = {
     },
     {
       title: "Research Projects",
+      default: "false",
       experiences: [
         {
           title: "Google Explore ML Facilitator",
@@ -492,7 +501,7 @@ const contactPageData = {
   //   avatar_image_path: "blogs_image.svg",
   // },
   addressSection: {
-    title: "Bleichstraße, Greifswald, Germany, 17489",
+    title: "Greifswald, Germany, 17489",
     subtitle: "",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/HxFBMW7JeLiKzRuy8",

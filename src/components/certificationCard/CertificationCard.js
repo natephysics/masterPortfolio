@@ -43,6 +43,7 @@ class CertificationCard extends Component {
             >
               {certificate.subtitle}
             </h3>
+            <p>{certificate.detail}</p>
           </div>
         </div>
       </Fade>

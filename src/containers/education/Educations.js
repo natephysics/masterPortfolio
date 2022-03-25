@@ -5,6 +5,24 @@ import { degrees } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 class Educations extends Component {
+  componentDidMount() {
+    const readMore = document.querySelectorAll(".readmore-btn");
+
+    readMore.forEach((read) => {
+      read.addEventListener("click", () => {
+        // read.parentElement.classList.toggle("read-all");
+
+        if (read.innerHTML == "Read More..") {
+          read.innerHTML = "Hide detail";
+          read.parentElement.style.height = "auto";
+        } else {
+          read.innerHTML = "Read More..";
+          read.parentElement.style.height = "270px";
+        }
+      });
+    });
+  }
+
   render() {
     const theme = this.props.theme;
     return (
