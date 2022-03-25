@@ -1,63 +1,63 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
+      "id": "MDEwOlJlcG9zaXRvcnkzNTczMDUyMjA=",
+      "name": "hfcnn",
+      "createdAt": "2021-04-12T18:52:17Z",
+      "url": "https://github.com/natephysics/hfcnn",
+      "description": "A convolutional neural network designed to extract plasma parameters from thermal camera heat load images.",
       "isFork": false,
-      "video": "https://www.youtube.com/embed/4DAbnHv6VHs?control=0&showinfo=0",
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
-      "name": "truvisory",
-      "createdAt": "2020-06-03T11:53:55Z",
-      "url": "https://github.com/ashutosh1919/truvisory",
-      "description": "This project is meant to provide resources to users who want to access good LinkedIn posts which contains resources to learn any Technology, Design, Self-Branding, Motivation etc. You can visit project by:",
-      "isFork": false,
-      "video": "https://www.youtube.com/embed/ugfL99e3yJA?control=0&showinfo=0",
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
-      "name": "ml-data-bot",
-      "createdAt": "2020-06-19T14:24:55Z",
-      "url": "https://github.com/ashutosh1919/ml-data-bot",
-      "description": "Chatbot which helps you to get important statistics from the data to get insights to build Machine learning, Deep learning and Statistical models",
-      "isFork": false,
-      "video": "https://www.youtube.com/embed/8q1HNSilaRM?control=0&showinfo=0",
+      "video": "https://www.youtube.com/embed/ugfL99e3yJA?control=0&showinfo=00",
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos-pytorch"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "positronPeakCounting",
+      "createdAt": "2019-10-25T21:55:54Z",
+      "url": "https://github.com/natephysics/positronPeakCounting",
+      "description": "A set of notebooks produced to be used by the APEX group for quickly counting and binning peaks in a positron trap.",
+      "isFork": false,
+      "video": "https://www.youtube.com/embed/WDRpWdRErpw?control=0&showinfo=00",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Numpy",
+          "iconifyClass": "logos-numpy"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "JupyterPhysicsLabs",
+      "createdAt": "2022-03-25T21:55:54Z",
+      "url": "https://github.com/natephysics/JupyterPhysicsLabs",
+      "description": "A collection of graduate physics labs done in python/Jupyter.",
+      "isFork": false,
+      "video": "",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
         }
       ]
     }

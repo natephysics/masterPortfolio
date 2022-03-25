@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 export default class ExperienceImg extends Component {
   render() {
-    const theme = this.props.theme;
     return (
       <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 600 600">
         <defs>
