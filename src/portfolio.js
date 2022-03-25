@@ -166,9 +166,9 @@ const skills = {
       title: "State-of-the-Art Research",
       fileName: "PhysicsImg",
       skills: [
-        "🥽 Worked on state-of-the-art experiments in fusion plasma physics, antimatter physics, and particle physics.",
-        "🥽 Customizing logo designs and building logos from scratch",
-        "🥽 Creating the flow of application functionalities to optimize user experience",
+        "🥽 Worked on the state-of-the-art in fusion plasma physics, the Wendelstein 7X experimental fusion reactor at the Max Planck Institute for Plasma Physics in Germany.",
+        "🥽 Research intern with two different antimatter experiments. Alpha group at CERN in Geneva, Switzerland working on antimatter spectroscopy and APEX group in Germany working on antimatter pair plasmas.",
+        "🥽 Two undergraduate research experiences: with the Cold Electron Research group and a summer Emilio Segrè internship, both at the University of California: Berkeley.",
       ],
       softwareSkills: [
         {
@@ -274,8 +274,8 @@ const degrees = {
         "+ Others",
       ],
       website_link: "https://www.berkeley.edu/",
-      color_code: "#8C151599",
-      header_img: "Berkeley_banner.jpg",
+      color_code: "#FFBBAC60",
+      header_img: "Greifswald_banner.jpg",
     },
     {
       title: "University of California: Berkeley",
@@ -302,7 +302,7 @@ const degrees = {
         "+ Others",
       ],
       website_link: "https://www.berkeley.edu/",
-      color_code: "#0C9D5899",
+      color_code: "#A9CCE370",
       header_img: "Berkeley_banner.jpg",
     },
   ],
@@ -322,8 +322,13 @@ const certifications = {
     {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
-      detail:
-        "loream loream loream loram loream loream loream loram loream loream loream loram loream loream loream loram loream loream loream loram",
+      details: [
+        "✓ Neural Networks and Deep Learning",
+        "✓ Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+        "✓ Structuring Machine Learning Projects",
+        "✓ Convolutional Neural Networks",
+        "✓ Sequence Models",
+      ],
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/U2EPL96DR6LS",
@@ -333,10 +338,27 @@ const certifications = {
     {
       title: "ML on GCP (In Progress)",
       subtitle: "- GCP Training",
+      details: [
+        "◐ How Google does Machine Learning",
+        "◌ Launching into Machine Learning",
+        "◌ TensorFlow on Google Cloud",
+        "◌ Feature Engineering",
+        "◌ Machine Learning in the Enterprise",
+      ],
       logo_path: "google_logo.png",
       certificate_link: "#education",
       alt_name: "Google",
       color_code: "#0C9D5899",
+    },
+    {
+      title: "Coursera Classes",
+      subtitle: "General Classes",
+      details: ["✓ Extract Text Data with Python and Regex"],
+      logo_path: "coursera_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/JHD2SX7P7RXH",
+      alt_name: "Coursera",
+      color_code: "#0056d299",
     },
   ],
 };

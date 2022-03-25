@@ -34,6 +34,9 @@
   /* background-image: url(https://timelinecovers.pro/facebook-cover/download/london-big-ben-facebook-cover.jpg); */
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-color-effect {

@@ -11,7 +11,12 @@ class DegreeCard extends Component {
         <Flip left duration={2000}></Flip>
         <Fade right duration={2000} distance="40px">
           <div className="card-body">
-            <div className="body-header">
+            <div
+              className="body-header"
+              style={{
+                backgroundImage: `url(${require(`../../assests/images/${degree.header_img}`)})`,
+              }}
+            >
               <div
                 className="bg-color-effect"
                 style={{ backgroundColor: degree.color_code }}

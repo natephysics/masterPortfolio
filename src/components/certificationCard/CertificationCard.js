@@ -43,7 +43,18 @@ class CertificationCard extends Component {
             >
               {certificate.subtitle}
             </h3>
-            <p>{certificate.detail}</p>
+            <div class="inner-cert">
+              <h2 className="cert-body-title" style={{ color: theme.text }}>
+                Related Classes:
+              </h2>
+              {certificate.details.map((sentence) => {
+                return (
+                  <p className="content-list" style={{ color: theme.text }}>
+                    {sentence}
+                  </p>
+                );
+              })}
+            </div>
           </div>
         </div>
       </Fade>

@@ -97,6 +97,16 @@
   text-transform: uppercase;
 }
 
+.inner-cert {
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
 .fadeIn-top {
   top: 20%;
 }
