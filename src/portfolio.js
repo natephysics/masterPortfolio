@@ -25,6 +25,7 @@ const greeting = {
   subTitle:
     "A developer working at the intersection of math, physics, and machine learning to solve real world problems.",
   resumeLink: "",
+  githubProfile: "https://github.com/natephysics?tab=repositories",
   portfolio_repository: "https://github.com/natephysics/masterPortfolio",
 };
 
