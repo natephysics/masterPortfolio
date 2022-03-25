@@ -57,7 +57,7 @@ class DegreeCard extends Component {
                   );
                 })}
 
-                <a class="readmore-btn">Read More..</a>
+                <button class="readmore-btn">Read More..</button>
               </div>
 
               <a

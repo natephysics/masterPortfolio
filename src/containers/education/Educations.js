@@ -12,7 +12,7 @@ class Educations extends Component {
       read.addEventListener("click", () => {
         // read.parentElement.classList.toggle("read-all");
 
-        if (read.innerHTML == "Read More..") {
+        if (read.innerHTML === "Read More..") {
           read.innerHTML = "Hide detail";
           read.parentElement.style.height = "auto";
         } else {
