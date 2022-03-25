@@ -9,7 +9,7 @@ import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
-  publicationsHeader,
+  // publicationsHeader,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 // import PublicationData from "../../shared/opensource/publications.json";
