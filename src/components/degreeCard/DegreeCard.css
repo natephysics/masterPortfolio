@@ -95,9 +95,9 @@
 .visit-btn {
   /* background-color: #6c63ff99; */
   display: inline-block;
-  margin: 0px 10px 10px 0px;
-  padding: 10px;
-  border-radius: 7px;
+  margin: 0px 5px 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
   border: 0px;
   float: right;
 }
@@ -130,7 +130,20 @@
   bottom: 0;
   cursor: pointer;
   margin: 20px;
-  font-weight: 500;
+  /* line-height: 1.1; */
+  width: max-content;
+  padding: 5px 5px;
+  /* margin-right: 0px; */
+  /* text-transform: uppercase; */
+  border-radius: 6px;
+  text-align: center;
+  /* text-decoration: none; */
+  font-family: "Google Sans Medium Italic";
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+  background: none;
+  border: none;
 }
 
 @media (max-width: 1380px) {

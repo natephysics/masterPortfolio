@@ -25,7 +25,9 @@ export default function Button({ text, className, href, newTab, theme }) {
           backgroundColor: theme.text,
           border: `solid 1px ${theme.text}`,
         }}
-        onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
+        onMouseEnter={(event) =>
+          onMouseEnter(event, theme.text, theme.compImgHighlight)
+        }
         onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
       >
         {text}

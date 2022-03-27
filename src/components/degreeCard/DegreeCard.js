@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
+import Button from "../../components/button/Button";
 import { Fade, Flip } from "react-reveal";
 
 class DegreeCard extends Component {
@@ -59,21 +60,15 @@ class DegreeCard extends Component {
 
                 <button class="readmore-btn">Read More..</button>
               </div>
-
-              <a
-                href={degree.website_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="visit-btn"
-                  style={{ backgroundColor: degree.color_code }}
-                >
-                  <p className="btn" style={{ color: theme.text }}>
-                    Visit Website
-                  </p>
-                </div>
-              </a>
+              <div className="visit-btn">
+                <Button
+                  text="Website"
+                  newTab={true}
+                  href={degree.website_link}
+                  theme={theme}
+                  className="btn"
+                />
+              </div>
             </div>
           </div>
         </Fade>
