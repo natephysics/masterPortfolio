@@ -267,7 +267,7 @@ const degrees = {
         "🧲 Advanced Quantum Physics",
         "+ Others",
       ],
-      website_link: "https://www.berkeley.edu/",
+      website_link: "https://www.uni-greifswald.de/",
       color_code: "#FFBBAC60",
       header_img: "Greifswald_banner.jpg",
     },
