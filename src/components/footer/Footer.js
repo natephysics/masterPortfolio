@@ -14,6 +14,7 @@ export default function Footer(props) {
             className="footer-url"
             href="https://github.com/ashutosh1919/masterPortfolio"
             target="_blank"
+            rel="noopener noreferrer"
           >
             masterPortfolio
           </a>
