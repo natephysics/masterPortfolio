@@ -26,7 +26,7 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                   alt=""
                 />
               </div>
@@ -78,7 +78,7 @@ class Contact extends Component {
               </div>
               <div className="blog-heading-img-div">
                 <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/>
                 <BlogsImg theme={theme} />
@@ -123,7 +123,7 @@ class Contact extends Component {
               </div>
               <div className="contact-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <AddressImg theme={theme} />

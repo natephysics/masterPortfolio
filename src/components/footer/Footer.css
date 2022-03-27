@@ -8,3 +8,7 @@
 .footer-div {
   margin-top: 2rem;
 }
+
+.footer-url {
+  text-decoration: none;
+}

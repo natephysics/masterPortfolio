@@ -22,7 +22,7 @@ class CertificationCard extends Component {
               >
                 <img
                   className="logo_img"
-                  src={require(`../../assests/images/${certificate.logo_path}`)}
+                  src={require(`../../assets/images/${certificate.logo_path}`)}
                   alt={certificate.alt_name}
                 />
               </div>
@@ -43,7 +43,7 @@ class CertificationCard extends Component {
             >
               {certificate.subtitle}
             </h3>
-            <div class="inner-cert">
+            <div className="inner-cert">
               <h2 className="cert-body-title" style={{ color: theme.text }}>
                 Related Classes:
               </h2>

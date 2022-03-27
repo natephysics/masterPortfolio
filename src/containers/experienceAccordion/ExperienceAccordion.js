@@ -12,7 +12,6 @@ class ExperienceAccordion extends Component {
           {this.props.sections.map((section) => {
             return (
               <Panel
-                expanded={true}
                 className="accord-panel"
                 title={section["title"]}
                 key={section["title"]}

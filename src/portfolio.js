@@ -24,9 +24,10 @@ const greeting = {
   nickname: "ML Developer & Physicist",
   subTitle:
     "A developer working at the intersection of math, physics, and machine learning to solve real world problems.",
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1hX1OIqSe4CVYd0luGC-2uIIV73cnDGto/view?usp=sharing",
   githubProfile: "https://github.com/natephysics?tab=repositories",
-  portfolio_repository: "https://github.com/natephysics/masterPortfolio",
+  portfolio_repository: "https://github.com/natephysics/",
 };
 
 const socialMediaLinks = [
@@ -64,9 +65,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deep learning and statistical use cases",
-        "⚡ Research experience in Computer Vision and Signal Processing",
-        "⚡ Experience working on cutting-edge Machine Learning tools and methods such as Hydra framework for PyTorch, invariant convolutional kernels, Bayesian hyperparameter optimization, sanity checks, and code profiling and optimization",
+        "1️⃣ Developing highly scalable production ready models for various deep learning and statistical use cases.",
+        "2️⃣ Research experience in Computer Vision and Signal Processing.",
+        "3️⃣ Experience working on cutting-edge Machine Learning tools and methods such as Hydra framework for PyTorch, invariant convolutional kernels, Bayesian hyperparameter optimization, sanity checks, and code profiling and optimization.",
       ],
       softwareSkills: [
         {
@@ -99,24 +100,16 @@ const skills = {
             color: "#3776AB",
           },
         },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3c3a3e",
-          },
-        },
       ],
     },
     {
       title: "MLOps & HPC Compute",
       fileName: "CloudInfraImg",
       skills: [
-        "☁️ Experience with several cloud platforms",
-        "☁️ Designed projects with multi-run support for HPC applications with spark and slurm",
-        "☁️ Developed an ML workflow with data version control and automatic experiment tracking",
-        "☁️ Backend developer with experience with multiple database types",
+        "3️⃣ Experience with several cloud platforms.",
+        "4️⃣ Designed projects with multi-run support for HPC applications with spark and slurm.",
+        "5️⃣ Developed an ML workflow with data version control and automatic experiment tracking.",
+        "6️⃣ Backend developer with experience with multiple database types.",
       ],
       softwareSkills: [
         {
@@ -167,9 +160,9 @@ const skills = {
       title: "State-of-the-Art Research",
       fileName: "PhysicsImg",
       skills: [
-        "🥽 Worked on the state-of-the-art in fusion plasma physics, the Wendelstein 7X experimental fusion reactor at the Max Planck Institute for Plasma Physics in Germany.",
-        "🥽 Research intern with two different antimatter experiments. Alpha group at CERN in Geneva, Switzerland working on antimatter spectroscopy and APEX group in Germany working on antimatter pair plasmas.",
-        "🥽 Two undergraduate research experiences: with the Cold Electron Research group and a summer Emilio Segrè internship, both at the University of California: Berkeley.",
+        "7️⃣ Worked on the state-of-the-art in fusion plasma physics, the Wendelstein 7X experimental fusion reactor at the Max Planck Institute for Plasma Physics in Germany.",
+        "8️⃣ Research intern with two different antimatter experiments. Alpha group at CERN in Geneva, Switzerland working on antimatter spectroscopy and APEX group in Germany working on antimatter pair plasmas.",
+        "9️⃣ Two undergraduate research experiences: with the Cold Electron Research group and a summer Emilio Segrè internship, both at the University of California: Berkeley.",
       ],
       softwareSkills: [
         {
@@ -263,10 +256,10 @@ const degrees = {
         "👨‍🔬 Developed a Python-based package used to train an ensemble of CNNs, facilitating the reconstruction of high-level plasma parameters like the rotational transform for the heat load image data taken from the Wendelstein 7-X fusion experiment. Extracting these parameters during operation is one of the steps necessary to developing a ML-based real time control system for the reactor.",
         "👨‍🔬 Actively involved in developing several data science solutions for the APEX group including projects that effectively counted peaks and automated data analysis. ",
         "Attended lectures:",
-        "👩‍💻 Machine Learning",
-        "👩‍💻 Features: Starting point for machine learning; Source for algebraic questions",
-        "👩‍💻 Statistical Learning (audit)",
-        "👩‍💻 Reinforcement Learning (audit)",
+        "🖥️ Machine Learning",
+        "🖥️ Features: Starting point for machine learning; Source for algebraic questions",
+        "🖥️ Statistical Learning (audit)",
+        "🖥️ Reinforcement Learning (audit)",
         "🧲 Computation Physics",
         "🧲 Many-Particle Theory",
         "🧲 Fusion Plasma Physics I",
@@ -293,13 +286,13 @@ const degrees = {
         "📖	MATH55 - Discrete Mathematics",
         "📖	MATH128A - Numerical Analysis",
         "📖	MATH104 - Real Analysis",
-        "👩‍💻 CS189 - Introduction to Machine Learning",
-        "👩‍💻 DS100 - Principles and Techniques of Data Science (audited)",
+        "📖 MATH189 Mathematical Methods for Quantum & Classical Mechanics",
+        "🖥️ CS189 - Introduction to Machine Learning",
+        "🖥️ DS100 - Principles and Techniques of Data Science (audited)",
         "🧲 PHY137A Quantum Mechanics I",
         "🧲 PHY137A Quantum Mechanics II",
         "🧲 PHY112 Statistical Thermal Physics",
         "🧲 PHY139 Theoretical Relativity",
-        "🧲 MATH189 Mathematical Methods for Quantum & Classical Mechanics",
         "+ Others",
       ],
       website_link: "https://www.berkeley.edu/",
@@ -334,6 +327,7 @@ const certifications = {
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/U2EPL96DR6LS",
       alt_name: "deeplearning.ai",
+      complete: true,
       color_code: "#00000099",
     },
     {
@@ -349,6 +343,7 @@ const certifications = {
       logo_path: "google_logo.png",
       certificate_link: "#education",
       alt_name: "Google",
+      complete: false,
       color_code: "#0C9D5899",
     },
     {
@@ -359,6 +354,7 @@ const certifications = {
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/JHD2SX7P7RXH",
       alt_name: "Coursera",
+      complete: true,
       color_code: "#0056d299",
     },
   ],
@@ -369,7 +365,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship Roles",
   description:
-    "Much of my recent work and research experience has been as a physics graduate and undergraduate in groups related to nuclear fusion or antimatter research. My principle role in almost every physics related research position I've had has been akin to a data scientists or ML engineer working with physics data. Topics of interest include convolutional neural networks, GANs, CUDA accelerated development, non-linear least squares solvers, Bayesian and gradient free hyperparameter optimization, and experience with databases from years as a backend developer.",
+    "My principle role in almost every physics related research position I've had has been akin to a data scientists or ML engineer working with physics data. Topics of interest include CNNs, GANs, CUDA accelerated development, non-linear least squares solvers, and experience with databases.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -497,7 +493,7 @@ const experience = {
 const projectsHeader = {
   title: "Coding Projects",
   description:
-    "A portfolio of various machine learning and data science projects. Most projects are related to the physics research I've conducted in the fields of fusion plasma physics or antimatter research",
+    "A portfolio of various machine learning and data science projects. Most projects are related to the physics research I've conducted in the fields of fusion plasma physics or antimatter research.",
   avatar_image_path: "projects_image.svg",
 };
 

@@ -15,7 +15,7 @@ class DegreeCard extends Component {
             <div
               className="body-header"
               style={{
-                backgroundImage: `url(${require(`../../assests/images/${degree.header_img}`)})`,
+                backgroundImage: `url(${require(`../../assets/images/${degree.header_img}`)})`,
               }}
             >
               <div
@@ -29,7 +29,7 @@ class DegreeCard extends Component {
                       maxHeight: "100%",
                       transform: "scale(0.9)",
                     }}
-                    src={require(`../../assests/images/${degree.logo_path}`)}
+                    src={require(`../../assets/images/${degree.logo_path}`)}
                     alt={degree.alt_name}
                   />
                 </div>
@@ -48,8 +48,8 @@ class DegreeCard extends Component {
                 </div>
               </div>
             </div>
-            <div classname="body-content">
-              <div class="inner-content">
+            <div className="body-content">
+              <div className="inner-content">
                 {degree.descriptions.map((sentence) => {
                   return (
                     <p className="content-list" style={{ color: theme.text }}>
@@ -58,7 +58,7 @@ class DegreeCard extends Component {
                   );
                 })}
 
-                <button class="readmore-btn">Read More..</button>
+                <button className="readmore-btn">Read More..</button>
               </div>
               <div className="visit-btn">
                 <Button
@@ -66,7 +66,6 @@ class DegreeCard extends Component {
                   newTab={true}
                   href={degree.website_link}
                   theme={theme}
-                  className="btn"
                 />
               </div>
             </div>
