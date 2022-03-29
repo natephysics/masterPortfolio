@@ -2,6 +2,20 @@ import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
+{
+  /* <div
+          className="repo-card-div"
+          key={repo.id}
+          onClick={() => openRepoinNewTab(repo.url)}
+          style={{ backgroundColor: theme.highlight }}
+        ></div> */
+}
+
+function openinNewTab(url) {
+  var win = window.open(url, "_blank");
+  win.focus();
+}
+
 class SoftwareSkill extends React.Component {
   render() {
     return (
@@ -21,18 +35,21 @@ class SoftwareSkill extends React.Component {
                   key={logo.skillName}
                   placement={"top"}
                   overlay={
-                    <Tooltip id={`tooltip-top`}>
-                      <strong>{logo.skillName}</strong>
-                    </Tooltip>
+                    <Tooltip id={`tooltip-top`}>{logo.skillName}</Tooltip>
                   }
                 >
                   <li className="software-skill-inline" name={logo.skillName}>
-                    <span
-                      className="iconify"
-                      data-icon={logo.fontAwesomeClassname}
-                      style={logo.style}
-                      data-inline="false"
-                    ></span>
+                    <div
+                      className="software-skill-div"
+                      onClick={() => openinNewTab(logo.logo_url)}
+                    >
+                      <span
+                        className="iconify"
+                        data-icon={logo.fontAwesomeClassname}
+                        style={logo.style}
+                        data-inline="false"
+                      ></span>
+                    </div>
                   </li>
                 </OverlayTrigger>
               );

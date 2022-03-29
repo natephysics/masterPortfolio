@@ -76,6 +76,7 @@ const skills = {
           style: {
             backgroundColor: "transparent",
           },
+          logo_url: "https://www.tensorflow.org/",
         },
         {
           skillName: "Keras",
@@ -84,6 +85,7 @@ const skills = {
             backgroundColor: "white",
             color: "#D00000",
           },
+          logo_url: "https://keras.io/",
         },
         {
           skillName: "PyTorch",
@@ -91,6 +93,7 @@ const skills = {
           style: {
             backgroundColor: "transparent",
           },
+          logo_url: "https://pytorch.org/",
         },
         {
           skillName: "Python",
@@ -99,6 +102,7 @@ const skills = {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
+          logo_url: "https://www.anaconda.com/",
         },
       ],
     },
@@ -118,6 +122,7 @@ const skills = {
           style: {
             color: "#FF9900",
           },
+          logo_url: "https://aws.amazon.com/",
         },
         {
           skillName: "Azure",
@@ -125,6 +130,7 @@ const skills = {
           style: {
             color: "#0089D6",
           },
+          logo_url: "https://azure.microsoft.com/",
         },
         {
           skillName: "PostgreSQL",
@@ -132,6 +138,7 @@ const skills = {
           style: {
             color: "#336791",
           },
+          logo_url: "https://www.postgresql.org/",
         },
         {
           skillName: "GPU HPC",
@@ -139,6 +146,7 @@ const skills = {
           style: {
             color: "#47A248",
           },
+          logo_url: "https://developer.nvidia.com/cuda-zone",
         },
         {
           skillName: "Spark",
@@ -146,6 +154,7 @@ const skills = {
           style: {
             color: "#e25a1c",
           },
+          logo_url: "https://spark.apache.org/",
         },
         {
           skillName: "Docker",
@@ -153,6 +162,7 @@ const skills = {
           style: {
             color: "#1488C6",
           },
+          logo_url: "https://www.docker.com/",
         },
       ],
     },
@@ -171,6 +181,7 @@ const skills = {
           style: {
             color: "#FF2BC2",
           },
+          logo_url: "https://www.ni.com/de-de/shop/labview.html",
         },
         {
           skillName: "Wolfram Mathematica",
@@ -178,6 +189,7 @@ const skills = {
           style: {
             color: "#F24E1E",
           },
+          logo_url: "https://www.wolfram.com/",
         },
         {
           skillName: "Fusion Plasma Physics",
@@ -185,13 +197,7 @@ const skills = {
           style: {
             color: "#FF7C00",
           },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:radiation",
-          style: {
-            color: "#000000",
-          },
+          logo_url: "https://www.ipp.mpg.de/en",
         },
       ],
     },
@@ -268,8 +274,8 @@ const degrees = {
         "+ Others",
       ],
       website_link: "https://www.uni-greifswald.de/",
-      color_code: "#FFBBAC60",
-      header_img: "Greifswald_banner.jpg",
+      color_code: "#FFFFFF60",
+      header_img: "Greifswald_banner_2.jpg",
     },
     {
       title: "University of California: Berkeley",

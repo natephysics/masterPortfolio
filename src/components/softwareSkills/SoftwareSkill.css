@@ -21,3 +21,9 @@
 .software-skill-inline > i:hover {
   color: #645beb;
 }
+
+.software-skill-div {
+  color: rgb(88, 96, 105);
+  padding: 0;
+  cursor: pointer;
+}
