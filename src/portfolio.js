@@ -347,7 +347,7 @@ const certifications = {
         "◌ Machine Learning in the Enterprise",
       ],
       logo_path: "google_logo.png",
-      certificate_link: "#education",
+      certificate_link: "",
       alt_name: "Google",
       complete: false,
       color_code: "#0C9D5899",

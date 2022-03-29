@@ -2,15 +2,6 @@ import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
-{
-  /* <div
-          className="repo-card-div"
-          key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.highlight }}
-        ></div> */
-}
-
 function openinNewTab(url) {
   var win = window.open(url, "_blank");
   win.focus();

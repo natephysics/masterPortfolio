@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./CertificationCard.css";
 import { Fade } from "react-reveal";
 
@@ -6,19 +7,18 @@ class CertificationCard extends Component {
   render() {
     const certificate = this.props.certificate;
     const theme = this.props.theme;
+
+    const setAttr = (link) => {
+      if (link !== "") return { href: link, target: "_blank" };
+      else return { rel: "nofollow", cursor: "pointer" };
+    };
+    const attr = setAttr(certificate.certificate_link);
+
     return (
       <Fade bottom duration={2000} distance="20px">
         <div className="cert-card">
           <div className="content">
-            <a
-              href={
-                certificate.active_link
-                  ? certificate.certificate_link
-                  : "javascript:void(0)"
-              }
-              target={certificate.active_link ? "_blank" : "_Self"}
-              rel="noopener noreferrer"
-            >
+            <a {...attr}>
               <div className="content-overlay"></div>
               <div
                 className="cert-header"
