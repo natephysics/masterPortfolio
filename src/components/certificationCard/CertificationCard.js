@@ -11,8 +11,12 @@ class CertificationCard extends Component {
         <div className="cert-card">
           <div className="content">
             <a
-              href={certificate.certificate_link}
-              target="_blank"
+              href={
+                certificate.active_link
+                  ? certificate.certificate_link
+                  : "javascript:void(0)"
+              }
+              target={certificate.active_link ? "_blank" : "_Self"}
               rel="noopener noreferrer"
             >
               <div className="content-overlay"></div>
@@ -28,7 +32,7 @@ class CertificationCard extends Component {
               </div>
               <div className="content-details fadeIn-top">
                 <h3 className="content-title" style={{ color: theme.body }}>
-                  Certificate
+                  {certificate.complete ? "Certificate" : "In Progress"}
                 </h3>
               </div>
             </a>

@@ -6,6 +6,57 @@
   font-family: "Google Sans Regular";
 }
 
+.accordion {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.aActive,
+.accordion:hover {
+  background-color: #fff;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.aActive:after {
+  content: "\2212";
+}
+
+.panel {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 0 0px;
+  background-color: #f6f6f6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.panel-inner {
+  padding: 24px;
+  padding-bottom: 40px;
+  font-weight: normal;
+  line-height: 20px;
+  list-style-type: none;
+
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .experience-accord {
     margin: 20px;
