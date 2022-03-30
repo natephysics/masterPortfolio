@@ -11,11 +11,17 @@ class ExperienceCard extends Component {
         style={{ border: `1px solid ${experience["color"]}` }}
       >
         <div className="experience-card-logo-div">
-          <img
-            className="experience-card-logo"
-            src={require(`../../assets/images/${experience["logo_path"]}`)}
-            alt=""
-          />
+          <a
+            href={experience["company_url"]}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="experience-card-logo"
+              src={require(`../../assets/images/${experience["logo_path"]}`)}
+              alt=""
+            />
+          </a>
         </div>
         <div className="experience-card-body-div">
           <div className="experience-card-header-div">

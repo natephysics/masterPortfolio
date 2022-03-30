@@ -391,8 +391,8 @@ const experience = {
         },
         {
           title: "Freelance Backend Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
+          company: "Freelance Development",
+          company_url: "https://www.linkedin.com/in/nathan-belmore-2b7280223/",
           logo_path: "freelance_logo.png",
           duration: "2007 - 2013",
           location: "Seattle, Washington",
