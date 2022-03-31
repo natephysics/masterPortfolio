@@ -22,7 +22,7 @@
 
 <p align="center"> 
     <a href="https://natephysics.github.io" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
+    <img src="public/images/masterPortfolioThemes.png"></img>
   </a>
 </p>
 
