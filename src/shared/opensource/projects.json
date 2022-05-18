@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkzNTczMDUyMjA=",
-      "name": "hfcnn",
+      "name": "Heat Flux GoogLeNet",
       "createdAt": "2021-04-12T18:52:17Z",
       "url": "https://github.com/natephysics/hfcnn",
       "description": "A convolutional neural network designed to extract plasma parameters from thermal camera heat load images.",

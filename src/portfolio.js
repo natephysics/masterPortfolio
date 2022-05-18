@@ -66,8 +66,8 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "1️⃣ Developing highly scalable production ready models for various deep learning and statistical use cases.",
-        "2️⃣ Research experience in Computer Vision and Signal Processing.",
-        "3️⃣ Experience working on cutting-edge Machine Learning tools and methods such as Hydra framework for PyTorch, invariant convolutional kernels, Bayesian hyperparameter optimization, sanity checks, and code profiling and optimization.",
+        "2️⃣ Research experience in computer vision & CNNs, diffusion model, and signal processing.",
+        "3️⃣ Experience working on cutting-edge machine learning tools and methods such as Hydra framework for PyTorch, invariant convolutional kernels, Bayesian hyperparameter optimization, sanity checks, ML error analysis, and code profiling and optimization.",
       ],
       softwareSkills: [
         {
@@ -110,8 +110,8 @@ const skills = {
       title: "MLOps & HPC Compute",
       fileName: "CloudInfraImg",
       skills: [
-        "3️⃣ Experience with several cloud platforms.",
-        "4️⃣ Designed projects with multi-run support for HPC applications with spark and slurm.",
+        "3️⃣ Experience with several cloud platforms. Currently working on AWS Certified ML Specialization.",
+        "4️⃣ Designed projects with multi-run support for HPC applications with spark or dask.",
         "5️⃣ Developed an ML workflow with data version control and automatic experiment tracking.",
         "6️⃣ Backend developer with experience with multiple database types.",
       ],
@@ -172,7 +172,7 @@ const skills = {
       skills: [
         "7️⃣ Worked on the state-of-the-art in fusion plasma physics, the Wendelstein 7X experimental fusion reactor at the Max Planck Institute for Plasma Physics in Germany.",
         "8️⃣ Research intern with two different antimatter experiments. Alpha group at CERN in Geneva, Switzerland working on antimatter spectroscopy and APEX group in Germany working on antimatter pair plasmas.",
-        "9️⃣ Two undergraduate research experiences: with the Cold Electron Research group and a summer Emilio Segrè internship, both at the University of California: Berkeley.",
+        "9️⃣ Two undergraduate research experiences: with the Cold Electron Research Group and a summer Emilio Segrè internship, both at the University of California: Berkeley.",
       ],
       softwareSkills: [
         {
@@ -259,8 +259,10 @@ const degrees = {
       alt_name: "University of Greifswald Logo",
       duration: "2018 - Now",
       descriptions: [
-        "👨‍🔬 Developed a Python-based package used to train an ensemble of CNNs, facilitating the reconstruction of high-level plasma parameters like the rotational transform for the heat load image data taken from the Wendelstein 7-X fusion experiment. Extracting these parameters during operation is one of the steps necessary to developing a ML-based real time control system for the reactor.",
-        "👨‍🔬 Actively involved in developing several data science solutions for the APEX group including projects that effectively counted peaks and automated data analysis. ",
+        "I came to the University of Greifswald to work on my M.Sc. in Physics at the Max Planck Institute for Plasma physics. The main focus of my work is on the development of ML algorithms for the analysis and generation of data taken from the Wendelstein 7-X fusion experiment.",
+        "👨‍🔬 Developed a Python-based package used to train an ensemble of CNNs, facilitating the reconstruction of high-level plasma parameters like the rotational transform for the heat load image data. Extracting these parameters during operation is one of the steps necessary to developing a ML-based real time control system for the reactor.",
+        "👨‍🔬 Produced a diffusion model that generates a heat load image from a given plasma state. The model is tuned (like a PINN) using the previously mentioned CNN in the loss function to verify the generated heat load image preserves the physics of the plasma.",
+        "👨‍🔬 Created several data science solutions for the APEX group including projects that effectively counted peaks and automated data analysis. ",
         "Attended lectures:",
         "🖥️ Machine Learning",
         "🖥️ Features: Starting point for machine learning; Source for algebraic questions",
@@ -285,7 +287,7 @@ const degrees = {
       duration: "2013 - 2016",
       descriptions: [
         "👨‍🔬 Alongside the Fajan/Wurtele Plasma Group at Berkeley, adapted software tools for analyzing the dipole and quadrupole moments in plasma, an important diagnostic that can be used as a non-destructive measure of the plasma shape, rotationaly speed, and even small deviations in magnetic field alignment. The tools were designed at CERN and had to be redeveloped to work our software control system, requiring extensive knowledge of both.",
-        "👨‍🔬	Worked with the ALPHA antihydrogen experiment at CERN, in conjunction with a Ph.D. student, developed a CUDA accelerated temperature solver which fit the Levenberg-Marquardt algorithm to successively increasing sized data intervals, using the normalized log-likelihood to compare fits, and assessed the uncertainty measure. This automated a time intensive and error prone process and is still used today.",
+        "👨‍🔬 Worked with the ALPHA antihydrogen experiment at CERN, in conjunction with a Ph.D. student, developed a CUDA accelerated temperature solver which fit the Levenberg-Marquardt algorithm to successively increasing sized data intervals, using the normalized log-likelihood to compare fits, and assessed the uncertainty measure. This automated a time intensive and error prone process and is still used today.",
         "Attended lectures:",
         "📖	MATH110 - Linear Algebra",
         "📖	MATH185 - Abstract Algebra",
@@ -352,16 +354,34 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "Coursera Classes",
-      subtitle: "General Classes",
-      details: ["✓ Extract Text Data with Python and Regex"],
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/JHD2SX7P7RXH",
+      title: "AWS Certified Machine Learning Specialty",
+      subtitle: "- Stephane Maarek",
+      details: [
+        "✓ Data Engineering",
+        "◐ Exploratory Data Analysis",
+        "◌ General Deep Learning and ML",
+        "◌ Amazon SageMaker",
+        "◌ High-Level ML Services",
+        "◌ Lab Activity",
+        "◌ ML Implementations and Operations",
+      ],
+      logo_path: "udemy_logo.png",
+      certificate_link: "https://www.udemy.com/course/aws-machine-learning/",
       alt_name: "Coursera",
-      complete: true,
-      color_code: "#0056d299",
+      complete: false,
+      color_code: "#dda0dd99",
     },
+    // {
+    //   title: "Coursera Classes",
+    //   subtitle: "General Classes",
+    //   details: ["✓ Extract Text Data with Python and Regex"],
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/JHD2SX7P7RXH",
+    //   alt_name: "Coursera",
+    //   complete: true,
+    //   color_code: "#0056d299",
+    // },
   ],
 };
 
