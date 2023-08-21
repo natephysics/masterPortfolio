@@ -257,7 +257,7 @@ const degrees = {
       subtitle: "M.Sc. in Physics",
       logo_path: "gw.png",
       alt_name: "University of Greifswald Logo",
-      duration: "2018 - Now",
+      duration: "2018 - 2022",
       descriptions: [
         "I came to the University of Greifswald to work on my M.Sc. in Physics at the Max Planck Institute for Plasma physics. The main focus of my work is on the development of ML algorithms for the analysis and generation of data taken from the Wendelstein 7-X fusion experiment.",
         "👨‍🔬 Developed a Python-based package used to train an ensemble of CNNs, facilitating the reconstruction of high-level plasma parameters like the rotational transform for the heat load image data. Extracting these parameters during operation is one of the steps necessary to developing a ML-based real time control system for the reactor.",
@@ -390,7 +390,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship Roles",
   description:
-    "My principle role in almost every physics related research position I've had has been akin to a data scientists or ML engineer working with physics data. Topics of interest include CNNs, GANs, CUDA accelerated development, non-linear least squares solvers, and experience with databases.",
+    "I have worked with a variety of companies and organizations in the fields of machine learning, data science, mathematics, and physics.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -398,18 +398,29 @@ const experience = {
       default: "false",
       experiences: [
         {
+          title: "Machine Learning Engineer",
+          company: "TicketSwap",
+          company_url: "https://ticketswap.com/",
+          logo_path: "TicketSwap_logo.png",
+          duration: "2022 - Current",
+          location: "Amsterdam, Netherlands",
+          description:
+            "Single-handedly architected an advanced MLOps pipeline encompassing experiment tracking, model and artifact registry on S3, and data versioning & genealogy. Integrated functionalities such as compute management & orchestration, real-time monitoring, containerization, and designed API endpoints for seamless deployment. This robust pipeline expedited the model development and deployment workflow, offering tools for tracing and diagnosing issues with deployed models in real-time and achieving significant AWS cost savings through automated compute management. Concurrently, led the development of a Graph Neural Network (GNN) based fraud detection system, crafted statistical models, a neural forecasting package, and event matching strategies. These innovations enhanced fraud detection efficiency and pinpointed discrepancies in advertising allocations using LTV. Addressed and corrected an overestimation in a previous revenue forecast and unveiled new analytical pathways through event matching. To bolster infrastructure, established an on-site ML workstation optimized for hybrid development, resulting in a 2-year ROI and substantial reductions in AWS EC2 costs during prototyping and tuning stages.",
+          color: "#00b6f0",
+        },
+        {
           title: "Data Scientist",
           company: "Max Planck Institute for Plasma Physics",
           company_url: "https://www.ipp.mpg.de/en",
           logo_path: "IPP_logo.png",
-          duration: "August 2018 - August 2020",
+          duration: "2018 - 2020",
           location: "Greifswald, Germany",
           description:
             "The APEX group at the Max Planck Institute for Plasma Physics principle research focus is producing matter-antimatter pair plasmas. Actively involved in developing data science solutions, writing scalable code that effectively counted peaks in the data sets and automated data analysis. Wrote LaTeX formatted lecture notes for the fusions plasma physics graduate course used by the director at the Institute. Set up an Ubuntu server with a JupyterHub instance for the group that used a hub for data analysis, converting old code into Python",
-          color: "#0077bd",
+          color: "#006c67",
         },
         {
-          title: "Freelance Backend Developer",
+          title: "Backend Developer, Project Manager",
           company: "Freelance Development",
           company_url: "https://www.linkedin.com/in/nathan-belmore-2b7280223/",
           logo_path: "freelance_logo.png",
