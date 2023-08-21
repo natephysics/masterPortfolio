@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "135963298bd97cba700db07c3d8d2b2c",
+    "revision": "68864db84fe1d2c4118ef1e7b27babc1",
     "url": "/index.html"
   },
   {
-    "revision": "72eb80ba1239e7a2a1e9",
+    "revision": "c00879ccce2f4c271147",
     "url": "/static/css/main.06c0eb6e.chunk.css"
   },
   {
-    "revision": "b6e86ac9105953009e36",
-    "url": "/static/js/2.0c76abad.chunk.js"
+    "revision": "cf527cc77cf7d7f4d732",
+    "url": "/static/js/2.8cb2ae2d.chunk.js"
   },
   {
-    "revision": "72eb80ba1239e7a2a1e9",
-    "url": "/static/js/main.c4747a8c.chunk.js"
+    "revision": "c00879ccce2f4c271147",
+    "url": "/static/js/main.aebf8f38.chunk.js"
   },
   {
     "revision": "bcf088218bc5636a7232",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c0c5c6dd739b06db5e5bfc04dce50eb",
     "url": "/static/media/Greifswald_banner_2.2c0c5c6d.jpg"
+  },
+  {
+    "revision": "aea02317002d0fdaf061cd99c9ec2447",
+    "url": "/static/media/IPP_logo.aea02317.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",

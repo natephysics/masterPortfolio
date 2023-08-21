@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.06c0eb6e.chunk.css",
-    "main.js": "/static/js/main.c4747a8c.chunk.js",
-    "main.js.map": "/static/js/main.c4747a8c.chunk.js.map",
+    "main.js": "/static/js/main.aebf8f38.chunk.js",
+    "main.js.map": "/static/js/main.aebf8f38.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3a679e59.js",
     "runtime-main.js.map": "/static/js/runtime-main.3a679e59.js.map",
-    "static/js/2.0c76abad.chunk.js": "/static/js/2.0c76abad.chunk.js",
-    "static/js/2.0c76abad.chunk.js.map": "/static/js/2.0c76abad.chunk.js.map",
+    "static/js/2.8cb2ae2d.chunk.js": "/static/js/2.8cb2ae2d.chunk.js",
+    "static/js/2.8cb2ae2d.chunk.js.map": "/static/js/2.8cb2ae2d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ecd52765476cbd1ff8bcf21025055e1d.js": "/precache-manifest.ecd52765476cbd1ff8bcf21025055e1d.js",
+    "precache-manifest.5ea7f21a9026c59735d96dee250bf261.js": "/precache-manifest.5ea7f21a9026c59735d96dee250bf261.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.06c0eb6e.chunk.css.map": "/static/css/main.06c0eb6e.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -17,6 +17,7 @@
     "static/media/CERN_logo.png": "/static/media/CERN_logo.7cb9db53.png",
     "static/media/Greifswald_banner.jpg": "/static/media/Greifswald_banner.12e17bbf.jpg",
     "static/media/Greifswald_banner_2.jpg": "/static/media/Greifswald_banner_2.2c0c5c6d.jpg",
+    "static/media/IPP_logo.png": "/static/media/IPP_logo.aea02317.png",
     "static/media/address_image.svg": "/static/media/address_image.1e53e648.svg",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
     "static/media/blogs_image.svg": "/static/media/blogs_image.058eca4c.svg",
@@ -46,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3a679e59.js",
-    "static/js/2.0c76abad.chunk.js",
+    "static/js/2.8cb2ae2d.chunk.js",
     "static/css/main.06c0eb6e.chunk.css",
-    "static/js/main.c4747a8c.chunk.js"
+    "static/js/main.aebf8f38.chunk.js"
   ]
 }
